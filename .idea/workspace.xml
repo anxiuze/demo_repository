@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70d2434b-ee38-44ce-83b4-bef7c17c3db5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/study/mytest/src/main/java/threadTest/ThreadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study/mytest/src/main/java/threadTest/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study/mytest/target/classes/extendsTest/ExtendsTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study/mytest/target/classes/extendsTest/Father.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study/mytest/target/classes/extendsTest/Son.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study/mytest/target/classes/threadTest/ThreadDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study/mytest/target/classes/threadTest/TreadDemoTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study/mytest/src/main/java/ExtendsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/study/mytest/src/main/java/extendsTest/ExtendsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study/mytest/src/main/java/Father.java" beforeDir="false" afterPath="$PROJECT_DIR$/study/mytest/src/main/java/extendsTest/Father.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study/mytest/src/main/java/Son.java" beforeDir="false" afterPath="$PROJECT_DIR$/study/mytest/src/main/java/extendsTest/Son.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study/mytest/target/classes/ExtendsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study/mytest/target/classes/Father.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study/mytest/target/classes/Son.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/mytest/target/" />
     <ignored path="$PROJECT_DIR$/study/shiro_test/target/" />
@@ -33,7 +40,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="2" />
-          <entry key="java" value="14" />
+          <entry key="java" value="16" />
           <entry key="md" value="1" />
           <entry key="xml" value="4" />
         </counts>
@@ -41,22 +48,22 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="14" />
+          <entry key="JAVA" value="16" />
           <entry key="Markdown" value="1" />
           <entry key="XML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="965" />
-          <entry key="txt" value="37" />
+          <entry key="java" value="1791" />
+          <entry key="txt" value="43" />
           <entry key="xml" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="965" />
-          <entry key="PLAIN_TEXT" value="37" />
+          <entry key="JAVA" value="1791" />
+          <entry key="PLAIN_TEXT" value="43" />
           <entry key="XML" value="9" />
         </counts>
       </usages-collector>
@@ -65,65 +72,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study/mytest/src/main/java/extendsTest/Father.java">
+        <entry file="file://$PROJECT_DIR$/study/mytest/src/main/java/threadTest/ThreadDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="476">
+              <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
               <folding>
-                <element signature="e#230#231#0" expanded="true" />
-                <element signature="e#283#284#0" expanded="true" />
+                <element signature="e#265#266#0" expanded="true" />
+                <element signature="e#297#298#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/study/mytest/pom.xml">
+        <entry file="file://$PROJECT_DIR$/study/mytest/src/main/java/threadTest/Ticket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study/mytest/src/main/java/MyTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="45" lean-forward="true" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study/mytest/src/main/java/comparatorTest/Dog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study/mytest/src/main/java/comparatorTest/Person.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="46" column="22" lean-forward="true" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study/mytest/src/main/java/comparatorTest/DogComparator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+            <state relative-caret-position="627">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
         </entry>
@@ -152,6 +117,8 @@
         <option value="$PROJECT_DIR$/study/mytest/src/main/java/comparatorTest/Person.java" />
         <option value="$PROJECT_DIR$/study/mytest/src/main/java/comparatorTest/DogComparator.java" />
         <option value="$PROJECT_DIR$/study/mytest/src/main/java/comparatorTest/Dog.java" />
+        <option value="$PROJECT_DIR$/study/mytest/src/main/java/threadTest/ThreadDemo.java" />
+        <option value="$PROJECT_DIR$/study/mytest/src/main/java/threadTest/Ticket.java" />
       </list>
     </option>
   </component>
@@ -233,6 +200,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Git" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="mytest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="threadTest" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -244,7 +221,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562485103659" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562489370480" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -265,7 +242,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Dog">
+  <component name="RunManager" selected="Application.TicketDemo">
     <configuration name="Dog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="comparatorTest.Dog" />
       <module name="mytest" />
@@ -286,13 +263,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyTest" />
-      <module name="mytest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="comparatorTest.Person" />
       <module name="mytest" />
@@ -300,18 +270,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TicketDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threadTest.TicketDemo" />
+      <module name="mytest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="threadTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreadDemoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threadTest.TreadDemoTest" />
+      <module name="mytest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="threadTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.MyTest" />
       <item itemvalue="Application.ExtendsTest" />
       <item itemvalue="Application.Person" />
       <item itemvalue="Application.Dog" />
+      <item itemvalue="Application.TreadDemoTest" />
+      <item itemvalue="Application.TicketDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TicketDemo" />
+        <item itemvalue="Application.TreadDemoTest" />
         <item itemvalue="Application.Dog" />
         <item itemvalue="Application.Person" />
         <item itemvalue="Application.ExtendsTest" />
-        <item itemvalue="Application.MyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -329,7 +327,7 @@
       <workItem from="1557235057254" duration="436000" />
       <workItem from="1560940870943" duration="1301000" />
       <workItem from="1562253748293" duration="1140000" />
-      <workItem from="1562471902318" duration="6429000" />
+      <workItem from="1562471902318" duration="9262000" />
     </task>
     <task id="LOCAL-00001" summary="删除mytest">
       <created>1557156324828</created>
@@ -352,21 +350,29 @@
       <option name="project" value="LOCAL" />
       <updated>1562478150264</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="多态小demo文件目录调整">
+      <created>1562485155198</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1562485155198</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11052000" />
+    <option name="totallyTimeSpent" value="13885000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.17430703" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.17430703" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.32962137" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -375,7 +381,7 @@
       <window_info anchor="bottom" id="Messages" order="4" weight="0.32850778" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.22048998" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.47772828" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.3997773" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -437,7 +443,8 @@
     <MESSAGE value="删除mytest" />
     <MESSAGE value="多态小demo" />
     <MESSAGE value="自定义比较器练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="自定义比较器练习" />
+    <MESSAGE value="多态小demo文件目录调整" />
+    <option name="LAST_COMMIT_MESSAGE" value="多态小demo文件目录调整" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -546,17 +553,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/study/mytest/src/main/java/extendsTest/Father.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/study/mytest/src/main/java/MyTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -584,8 +580,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/study/mytest/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        <state relative-caret-position="408">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study/mytest/src/main/java/extendsTest/Father.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study/mytest/src/main/java/threadTest/ThreadDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+          <folding>
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study/mytest/src/main/java/threadTest/Ticket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
     </entry>
