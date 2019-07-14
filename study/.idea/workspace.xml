@@ -2,19 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7c0e8d0-9581-441f-85e3-5e3895e38f42" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mytest/src/main/java/ioTest/ReadTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0365f19b-5d9b-40a3-8156-056033c8983b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0365f19b-5d9b-40a3-8156-056033c8983b.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mytest/src/main/java/ioTest/FileCopyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mytest/mytest.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/shiro_test/shiro_test.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/shiro_test/target/test-classes/shrio/Authentication.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/shiro_test/target/test-classes/shrio/IniRealmTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/shiro_test/target/test-classes/shrio/JdbcRealmTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,13 +40,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mytest/src/main/java/ioTest/ReadTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+            <state relative-caret-position="389">
+              <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mytest/src/main/java/ioTest/FileCopyTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="31" column="86" selection-start-line="31" selection-start-column="86" selection-end-line="31" selection-end-column="86" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#339#340#0" expanded="true" />
+                <element signature="e#363#364#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -79,7 +88,10 @@
         <option value="$PROJECT_DIR$/shiro_test/pom.xml" />
         <option value="$PROJECT_DIR$/shiro_test/src/test/java/shrio/JdbcRealmTest.java" />
         <option value="$PROJECT_DIR$/shiro_test/src/test/java/shrio/Authentication.java" />
+        <option value="$PROJECT_DIR$/mytest/src/main/java/ioTest/ReadUtilTest.java" />
         <option value="$PROJECT_DIR$/mytest/src/main/java/ioTest/ReadTest.java" />
+        <option value="$PROJECT_DIR$/mytest/src/main/java/MyTest.java" />
+        <option value="$PROJECT_DIR$/mytest/src/main/java/ioTest/FileCopyTest.java" />
       </list>
     </option>
   </component>
@@ -177,7 +189,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Dockerfile" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -196,7 +208,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReadTest">
+  <component name="RunManager" selected="Application.FileCopyTest">
+    <configuration name="FileCopyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ioTest.FileCopyTest" />
+      <module name="mytest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ioTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ioTest.ReadTest" />
       <module name="mytest" />
@@ -258,36 +283,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestShrio.TestShrio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="shiro_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="shrio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="shrio" />
-      <option name="MAIN_CLASS_NAME" value="shrio.TestShrio" />
-      <option name="METHOD_NAME" value="TestShrio" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.ReadTest" />
-      <item itemvalue="JUnit.TestShrio.TestShrio" />
       <item itemvalue="JUnit.Authentication.TestAuthentication" />
       <item itemvalue="JUnit.IniRealmTest.TestIniRealm" />
       <item itemvalue="JUnit.JdbcRealmTest.JdbcRealmTest" />
+      <item itemvalue="Application.FileCopyTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileCopyTest" />
         <item itemvalue="Application.ReadTest" />
         <item itemvalue="JUnit.JdbcRealmTest.JdbcRealmTest" />
         <item itemvalue="JUnit.IniRealmTest.TestIniRealm" />
         <item itemvalue="JUnit.Authentication.TestAuthentication" />
-        <item itemvalue="JUnit.TestShrio.TestShrio" />
       </list>
     </recent_temporary>
   </component>
@@ -312,8 +321,16 @@
       <workItem from="1563003310173" duration="271000" />
       <workItem from="1563003603662" duration="727000" />
       <workItem from="1563032305877" duration="1645000" />
-      <workItem from="1563091980065" duration="1298000" />
+      <workItem from="1563091980065" duration="5757000" />
     </task>
+    <task id="LOCAL-00001" summary="字符流读取文件">
+      <created>1563093424562</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1563093424562</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -349,7 +366,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17891000" />
+    <option name="totallyTimeSpent" value="22350000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -362,15 +379,15 @@
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.17377399" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.32925472" />
       <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.32925472" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
       <window_info anchor="bottom" id="Messages" order="4" weight="0.32925472" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.6195773" />
-      <window_info active="true" anchor="bottom" id="Debug" order="8" visible="true" weight="0.13904338" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.189099" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.36040044" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
@@ -389,6 +406,36 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="字符流读取文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="字符流读取文件" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -468,13 +515,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mytest/src/main/java/MyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Softs/java8/src.zip!/java/io/Reader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="283">
@@ -496,12 +536,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mytest/src/main/java/ioTest/ReadUtilTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mytest/src/main/java/MyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mytest/src/main/java/ioTest/ReadTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+        <state relative-caret-position="389">
+          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mytest/src/main/java/ioTest/FileCopyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="31" column="86" selection-start-line="31" selection-start-column="86" selection-end-line="31" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
           </folding>
         </state>
       </provider>
